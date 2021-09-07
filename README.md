@@ -14,7 +14,7 @@ Demo : [kashyapa](https://telegram.me/IMkashyapaa)
 Easy To Deploy
 
 ### DEPLOY 🏃‍♂️
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kasunthamadushanka/EMMA-MUSIC-BOT.git)
+[![Deploy](https://www.heroku.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KashyapaDewmith/EMMA-MUSIC-BOT.git)
 
 
 
