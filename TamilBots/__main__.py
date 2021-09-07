@@ -1,22 +1,19 @@
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from TamilBots.modules import *
+from kashyapa.modules import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
-from TamilBots import app, LOGGER
-from TamilBots.TamilBots import ignore_blacklisted_users
-from TamilBots.sql.chat_sql import add_chat_to_db
+from kashyapa  import app, LOGGER
+from kashyapa .kashyapa import ignore_blacklisted_users
+from kashyapa .sql.chat_sql import add_chat_to_db
 
 start_text = """
 👋 Hay [{}](tg://user?id={}),
-
-\n\nI'm 🎵 𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 [🎶](https://telegra.ph/file/deb4201942e6cf5ee88ae.mp4)
-
-Powered By 🔰@epusthakalaya_bots🔰
+Powered By 🔰kashyapa dewmith🔰
 
 Send The Name of the Song You Want..
-𝐄𝐠. ```/song Bad Habits```
+𝐄𝐠. ```/song black pink how you like that```
 """
 
 owner_help = """
@@ -37,18 +34,13 @@ async def start(client, message):
         btn = InlineKeyboardMarkup(
            [
                [
-                   InlineKeyboardButton(text="📣 BOT UPDATES 📣", url="https://t.me/epusthakalaya_bots"),
-                   InlineKeyboardButton(text="👥 SUPPORT GROUP 👥", url="https://t.me/epusthakalayabotsupport")
+                   InlineKeyboardButton(text="📣 contact me 📣", url="https://telegram.me/IMkashyapaa"),
+                   InlineKeyboardButton(text="👥 my main bot 👥", url="https://telegram.me/Lanka_ehi_files_bot")
                ],
                
                [
-                   InlineKeyboardButton(text="🎓 DEVELOPER 🎓", url='https://t.me/kasu_bro'),
-                   InlineKeyboardButton(text="⚜️ ADD ME ⚜️", url="http://t.me/EmmaMusicBot?startgroup=true")
-               ],
-               
-               [
-                   InlineKeyboardButton(text="🌟 REVIEW US 🌟", url='https://t.me/tlgrmcbot?start=emmamusicbot-review') 
-               ],
+                   InlineKeyboardButton(text="🎓 DEVELOPER 🎓", url='https://telegram.me/IMkashyapaa'),
+                   
                
           ]     
     )
@@ -66,7 +58,7 @@ async def help(client, message):
     text = "Send The Name of the Song You Want..\n /song (song name) "
     await message.reply(text)
 
-OWNER_ID.append(1167071602)
+OWNER_url.append("https://telegram.me/IMkashyapaa")
 app.start()
-LOGGER.info("𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 Was Deployed Successfully! ✅")
+LOGGER.info(" 𝐊𝐚𝐬𝐡𝐲𝐚𝐩𝐚 𝐦𝐮𝐬𝐢𝐜 Was Deployed Successfully! ✅")
 idle()
