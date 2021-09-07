@@ -1,14 +1,14 @@
-<h1 align="centre">🎵 EMMA MUSIC BOT🎵</h1>
+<h1 align="centre">🎵 kashyapa 🎵</h1>
 
 ### A bot that can download any songs.
 
-### Available on telegram as @EmmaMusicBot
+### Available on telegram as @IMkashyapaa
 
 <p align="center">
   <img src="https://telegra.ph/file/f7e1f308e364bf6a27449.jpg">
 </p>
 
-Demo : [𝐄𝐌𝐌𝐀 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓](https://t.me/EmmaMusicBot)
+Demo : [kashyapa](https://telegram.me/IMkashyapaa)
 
 
 Easy To Deploy
